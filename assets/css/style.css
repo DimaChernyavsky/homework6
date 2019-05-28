@@ -1,0 +1,57 @@
+body {margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #141b23 url(../images/background.png) no-repeat;
+	background-attachment: fixed;
+	font-family: "Franklin Gothic";
+}
+* {box-sizing: inherit;}
+
+header {font-size: 15px;
+padding: 0;
+margin: 0;}
+
+li 	{padding:8px;
+	display:inline-block;
+	position: relative;}
+
+li a {
+	color:#b1bbcb;
+text-decoration: none;}
+
+.logo {
+color:#b1bbcb;
+font-size: 18px;
+text-transform:uppercase; }
+
+.container {
+	padding-top: 65px;
+	padding-bottom: 50px;
+	padding-right: 55px;
+	padding-left: 55px;
+	font-weight: 500;
+	min-height: 100vh;
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-image: url(../images/Bitmap@2x.jpg);}
+
+article {margin:70px 95px;
+width: 467px;
+height: 230px;
+color: #ffffff;
+font-size: 13px;
+line-height: 15.6px;}
+
+article h2 {
+	font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+	
+}
+
+footer {
+	padding:55px 50px; 
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 14.4px;
+	opacity: 0.27;}
